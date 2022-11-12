@@ -34,7 +34,7 @@ def get_filters():
         print("\nWhich month would you like to get data for? Enter month name between January and June or type All to view all available months.\n")
         month = input().lower()
         if month not in month_dict.keys():
-            print("\nThat is not a valid input for month.")
+            print("\nThat is not a valid input for month. Try entering a month name such as 'April'")
         
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     #create list of days with an 'all' option to store avaiable options
