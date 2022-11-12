@@ -177,7 +177,7 @@ def user_stats(df):
 def get_data(df):
     #function to get top 5 rows of data
     row = 0
-    stop_row = 5
+    stop_row = 10
     raw_data = input("\nWould you like to view the raw data? Enter yes or no.\n").lower()
     pd.set_option('display.max_columns',200)
     
@@ -187,8 +187,8 @@ def get_data(df):
         elif raw_data == 'yes':
             print(df.iloc[row:stop_row,])
             raw_data = input("\nWould you like to view more of the raw data?\n").lower()
-            row += 5
-            stop_row += 5
+            row += 10
+            stop_row += 10
         else:
             print("\nYour input is invalid. Please enter only 'yes' or 'no'\n").lower()
             
