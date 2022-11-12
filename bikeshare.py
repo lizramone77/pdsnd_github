@@ -44,7 +44,7 @@ def get_filters():
         print("\nLastly, which day of the week would you like to get data for? Enter a week day name between Monday and Sunday or enter all to view all days.\n")
         day = input().lower()
         if day not in day_list:
-            print("\nThat is not a valid weekday name.")
+            print("\nThat is not a valid weekday name. Try entering a weekday such as 'Thursday'.")
         
     print('-'*40)
     
