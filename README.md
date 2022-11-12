@@ -12,7 +12,10 @@ Github Python Project
 Bikeshare python project created in Udacity course that filters bikeshare data in Chicago, New York City, or Washington based on user input and displays corresponding statistical data.
 
 ### Files used
-Files used: chicago.csv, new_york_city.csv, and washington.csv
+Files used: 
+-chicago.csv 
+-new_york_city.csv
+-washington.csv
 
 ### Credits
 Credit: Udacity Programming for Data Science with Python Nanodegree
